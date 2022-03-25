@@ -4,7 +4,6 @@ import { ThemeProvider } from "next-themes";
 import NavbarTest from "../components/navbar";
 import Searchbar from "../components/searchbar";
 import { AuthProvider } from "../components/auth";
-import PrivateRoute from "../components/privateroute";
 import Account from "./settings/account";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
