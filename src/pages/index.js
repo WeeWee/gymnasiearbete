@@ -45,6 +45,15 @@ export default function Home(props) {
         >
           <img className="w-full h-full rounded" src="fillepille.jpg"></img>
         </motion.div>
+        <h1>
+          Beautiful picture of{" "}
+          <a
+            href="https://www.instagram.com/filipahlbin/"
+            className="hover:text-gray-400"
+          >
+            Fille
+          </a>
+        </h1>
       </section>
       <div id="about"></div>
       <motion.div
@@ -57,25 +66,126 @@ export default function Home(props) {
         <h2 className="text-2xl font-bold">About</h2>
         <h4 className="text-lg">
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          pharetra eget nulla at vehicula. Orci varius natoque penatibus et
-          magnis dis parturient montes, nascetur ridiculus mus. Donec a quam non
-          erat mollis accumsan in non magna. Etiam vitae risus vel justo
-          malesuada aliquet non eu sem. Donec ut facilisis urna. Etiam malesuada
-          convallis erat at condimentum. Donec iaculis rhoncus laoreet. Sed sed
-          quam a eros vestibulum egestas. Nam sollicitudin id nisi at gravida.
-          Duis ut consequat lorem. Sed a purus id lectus fringilla placerat non
-          at eros. Etiam nulla justo, viverra et risus vel, hendrerit maximus
-          est. Donec mi elit, placerat et ipsum at, condimentum ullamcorper
-          sapien. Suspendisse potenti. Fusce porta elementum urna a blandit. Sed
-          porta ligula tortor, viverra bibendum enim dictum id. Sed id orci
-          lectus. Ut vitae dignissim ex, quis lacinia odio. Morbi sollicitudin
-          nunc a nibh viverra iaculis. Sed nec tincidunt arcu, vel lobortis
-          augue. Duis sed tortor sed nulla scelerisque posuere. Mauris sagittis
-          sodales quam eu sagittis. Vivamus odio nulla, efficitur at posuere at,
-          facilisis at mi. Nulla malesuada diam vel arcu pulvinar efficitur.
-          Proin non lacus erat. Vestibulum eu tortor at magna pulvinar commodo.
-          Duis eget semper felis.{" "}
+          This is roughly how your profile page can look like! <br />
+          Sadly i was too ambitious which meant that a bunch of features could
+          not be added.
+          <br />
+          This meant i was dissapointed about the project, but atleast i learnt
+          a bunch!
+          <br />
+          Here is some of the links i used in my project.
+          <br />
+          Adi, Kukic. (2021, 22 Juli). Next.js 9.3+ Data Fetching Explained:
+          getServerSideProps(), getStaticProps() and getStaticPaths(). <br />{" "}
+          [Video]. Youtube.{" "}
+          <a
+            href="https://www.youtube.com/watch?v=eWObYvG0-lI"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>
+          . <br /> Hämtad 2021-10-26. <br />
+          Auth0. Website. u.å.{" "}
+          <a
+            href="https://auth0.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br /> Dribbble. Website. u.å.
+          <a
+            href="https://dribbble.com/indieak/collections/5158337-website"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br />
+          Firebase. Firebase Documentation.(u.å.)
+          <a
+            href="https://firebase.google.com/docs"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br /> Framer motion. Examples. u.å.
+          <a
+            href="https://www.framer.com/docs/examples/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br /> GeeksforGeeks(u.å.)
+          <a
+            href="https://www.geeksforgeeks.org/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link{" "}
+          </a>{" "}
+          <br />
+          Indeed. u.å{" "}
+          <a
+            href="https://se.indeed.com/?r=us"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>
+          <br />
+          Mozilla MDN Web Docs. :autofill.
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS/:autofill"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>
+          <br /> MongoDB. Website.{" "}
+          <a
+            href="https://www.mongodb.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br />
+          Reddit.(u.å.){" "}
+          <a
+            href="https://www.reddit.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br /> Stackoverflow(u.å.)
+          <a
+            href="https://stackoverflow.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            &nbsp;Link
+          </a>{" "}
+          <br /> Tabnine.(u.å.){" "}
+          <a
+            href="https://www.tabnine.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br /> Tailwindcss(u.å.)
+          <a
+            href="https://tailwindcss.com/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            {" "}
+            Link
+          </a>{" "}
+          <br />
         </h4>
       </motion.div>
       <div id="portfolio"></div>
@@ -89,43 +199,14 @@ export default function Home(props) {
         <h2 className="text-2xl font-bold">Portfolio</h2>
         <h4 className="text-lg">
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          pharetra eget nulla at vehicula. Orci varius natoque penatibus et
-          magnis dis parturient montes, nascetur ridiculus mus. Donec a quam non
-          erat mollis accumsan in non magna. Etiam vitae risus vel justo
-          malesuada aliquet non eu sem. Donec ut facilisis urna. Etiam malesuada
-          convallis erat at condimentum. Donec iaculis rhoncus laoreet. Sed sed
-          quam a eros vestibulum egestas. Nam sollicitudin id nisi at gravida.
-          Duis ut consequat lorem. Sed a purus id lectus fringilla placerat non
-          at eros. Etiam nulla justo, viverra et risus vel, hendrerit maximus
-          est. Donec mi elit, placerat et ipsum at, condimentum ullamcorper
-          sapien. Suspendisse potenti. Fusce porta elementum urna a blandit. Sed
-          porta ligula tortor, viverra bibendum enim dictum id. Sed id orci
-          lectus. Ut vitae dignissim ex, quis lacinia odio. Morbi sollicitudin
-          nunc a nibh viverra iaculis. Sed nec tincidunt arcu, vel lobortis
-          augue. Duis sed tortor sed nulla scelerisque posuere. Mauris sagittis
-          sodales quam eu sagittis. Vivamus odio nulla, efficitur at posuere at,
-          facilisis at mi. Nulla malesuada diam vel arcu pulvinar efficitur.
-          Proin non lacus erat. Vestibulum eu tortor at magna pulvinar commodo.
-          Duis eget semper felis. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Pellentesque pharetra eget nulla at vehicula. Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec a quam non erat mollis accumsan in non magna.
-          Etiam vitae risus vel justo malesuada aliquet non eu sem. Donec ut
-          facilisis urna. Etiam malesuada convallis erat at condimentum. Donec
-          iaculis rhoncus laoreet. Sed sed quam a eros vestibulum egestas. Nam
-          sollicitudin id nisi at gravida. Duis ut consequat lorem. Sed a purus
-          id lectus fringilla placerat non at eros. Etiam nulla justo, viverra
-          et risus vel, hendrerit maximus est. Donec mi elit, placerat et ipsum
-          at, condimentum ullamcorper sapien. Suspendisse potenti. Fusce porta
-          elementum urna a blandit. Sed porta ligula tortor, viverra bibendum
-          enim dictum id. Sed id orci lectus. Ut vitae dignissim ex, quis
-          lacinia odio. Morbi sollicitudin nunc a nibh viverra iaculis. Sed nec
-          tincidunt arcu, vel lobortis augue. Duis sed tortor sed nulla
-          scelerisque posuere. Mauris sagittis sodales quam eu sagittis. Vivamus
-          odio nulla, efficitur at posuere at, facilisis at mi. Nulla malesuada
-          diam vel arcu pulvinar efficitur. Proin non lacus erat. Vestibulum eu
-          tortor at magna pulvinar commodo. Duis eget semper felis.{" "}
+          Here you could write about your education, experiences and add a{" "}
+          <a
+            className="hover:text-gray-400"
+            href="https://arbetsformedlingen.se/for-arbetssokande/cv-ansokan-och-intervju/skriva-cv"
+          >
+            Link{" "}
+          </a>
+          to companies you've worked for and such.{" "}
         </h4>
       </motion.div>
       <div id="contact"></div>
@@ -138,44 +219,25 @@ export default function Home(props) {
       >
         <h2 className="text-2xl font-bold">Contact</h2>
         <h4 className="text-lg">
-          Etiam nulla justo, viverra et risus vel, hendrerit maximus est. Donec
-          mi elit, placerat et ipsum at, condimentum ullamcorper sapien.
-          Suspendisse potenti. Fusce porta elementum urna a blandit. Sed porta
-          ligula tortor, viverra bibendum enim dictum id. Sed id orci lectus. Ut
-          vitae dignissim ex, quis lacinia odio. Morbi sollicitudin nunc a nibh
-          viverra iaculis. Sed nec tincidunt arcu, vel lobortis augue. Duis sed
-          tortor sed nulla scelerisque posuere. Mauris sagittis sodales quam eu
-          sagittis. Vivamus odio nulla, efficitur at posuere at, facilisis at
-          mi. Nulla malesuada diam vel arcu pulvinar efficitur. Proin non lacus
-          erat. Vestibulum eu tortor at magna pulvinar commodo. Duis eget semper
-          felis. Curabitur sed hendrerit sapien. Aenean varius tortor vel
-          maximus efficitur. In magna nunc, finibus at ultrices a, blandit vel
-          justo. Pellentesque justo massa, suscipit in est sollicitudin, posuere
-          gravida est. In eu luctus turpis. Maecenas a viverra erat. Curabitur
-          et porta libero, nec lacinia mauris. Etiam id est elit. Sed eget orci
-          non augue sagittis eleifend. Phasellus ultrices dapibus ante, ac
-          vulputate lorem pretium ac. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Pellentesque pharetra eget nulla at vehicula. Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec a quam non erat mollis accumsan in non magna.
-          Etiam vitae risus vel justo malesuada aliquet non eu sem. Donec ut
-          facilisis urna. Etiam malesuada convallis erat at condimentum. Donec
-          iaculis rhoncus laoreet. Sed sed quam a eros vestibulum egestas. Nam
-          sollicitudin id nisi at gravida. Duis ut consequat lorem. Sed a purus
-          id lectus fringilla placerat non at eros. Etiam nulla justo, viverra
-          et risus vel, hendrerit maximus est. Donec mi elit, placerat et ipsum
-          at, condimentum ullamcorper sapien. Suspendisse potenti. Fusce porta
-          elementum urna a blandit. Sed porta ligula tortor, viverra bibendum
-          enim dictum id. Sed id orci lectus. Ut vitae dignissim ex, quis
-          lacinia odio. Morbi sollicitudin nunc a nibh viverra iaculis. Sed nec
-          tincidunt arcu, vel lobortis augue. Duis sed tortor sed nulla
-          scelerisque posuere. Mauris sagittis sodales quam eu sagittis. Vivamus
-          odio nulla, efficitur at posuere at, facilisis at mi. Nulla malesuada
-          diam vel arcu pulvinar efficitur. Proin non lacus erat. Vestibulum eu
-          tortor at magna pulvinar commodo. Duis eget semper felis. Nulla
-          malesuada diam vel arcu pulvinar efficitur. Proin non lacus erat.
-          Vestibulum eu tortor at magna pulvinar commodo. Duis eget semper
-          felis.
+          Here you can have your contact details on different social medias.
+          <br />
+          <a
+            href="https://www.instagram.com/adamsluffarliv/"
+            className="hover:from-blue-600 hover:to-green from-yellow-600 to-red-600 bg-gradient-to-r text-transparent bg-clip-text"
+          >
+            Instagram
+          </a>
+          <br />
+          <span className="hover:text-gray-400 text-xl">
+            {" "}
+            You play fivem?{" "}
+            <a
+              href="https://discord.gg/glizzy"
+              className="from-red-400 to-blue-400 bg-gradient-to-r text-transparent bg-clip-text"
+            >
+              Join Glizzy RP Discord Server!
+            </a>
+          </span>
         </h4>
       </motion.div>
     </div>
