@@ -228,7 +228,7 @@ export default function Home(props) {
             Instagram
           </a>
           <br />
-          <span className="hover:text-gray-400 text-xl">
+          <span className=" text-xl">
             {" "}
             You play fivem?{" "}
             <a
