@@ -206,7 +206,7 @@ export default function Home(props) {
           >
             Link{" "}
           </a>
-          to companies you've worked for and such.{" "}
+          to companies you&apos;ve worked for and such.{" "}
         </h4>
       </motion.div>
       <div id="contact"></div>
